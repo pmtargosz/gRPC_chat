@@ -1,0 +1,29 @@
+{
+  "name": "grpc_chat",
+  "version": "0.0.1",
+  "description": "gPRC chat app using node",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server",
+    "join": "node client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmtargosz/gRPC_chat.git"
+  },
+  "keywords": [
+    "gRPC",
+    "node",
+    "chat"
+  ],
+  "author": "Pawel Targosz <pmtargosz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmtargosz/gRPC_chat/issues"
+  },
+  "homepage": "https://github.com/pmtargosz/gRPC_chat#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.4.0",
+    "grpc": "^1.18.0"
+  }
+}

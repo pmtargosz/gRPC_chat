@@ -1,0 +1,12 @@
+### macOS ###
+# General
+*.DS_Store
+### Node ###
+node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+### Config Files ###
+config.js
