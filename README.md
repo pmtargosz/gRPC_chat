@@ -16,6 +16,18 @@ cd <project>
 npm install
 ```
 
+### Config
+
+Inside `config.js` file you can change server address `<your_data>`:
+```js
+const config = {
+    SERVER_ADDRESS: '<your_data>',
+    REMOTE_SERVER: '<your_data>',
+}
+
+module.exports = config;
+```
+
 ### Commands
 Run server:
 ```bash
